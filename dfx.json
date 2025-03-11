@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "deai_client_backend": {
+      "candid": "src/deai_client_backend/deai_client_backend.did",
+      "package": "deai_client_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
