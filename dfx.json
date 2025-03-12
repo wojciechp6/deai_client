@@ -1,9 +1,11 @@
 {
   "canisters": {
-    "deai_client_backend": {
-      "candid": "src/deai_client_backend/deai_client_backend.did",
-      "package": "deai_client_backend",
-      "type": "rust"
+    "deai_client_example": {
+      "candid": "examples/deai_client_example/deai_client_example.did",
+      "package": "deai_client_example",
+      "type": "custom",
+      "build": "./build.sh deai_client_example",
+      "wasm": "target/wasm32-unknown-unknown/release/deai_client_example.wasm"
     }
   },
   "defaults": {

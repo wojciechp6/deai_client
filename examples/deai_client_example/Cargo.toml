@@ -1,0 +1,15 @@
+[package]
+name = "deai_client_example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = { version = "1.0.171", features = ["derive"] }
+candid = "0.10.3"
+ic-cdk = "0.14"
+serde_json = "1.0.114"
+deai_client = {path = "../../deai_client" }
+
