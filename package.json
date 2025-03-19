@@ -1,0 +1,37 @@
+{
+  "name": "deai_client",
+  "version": "1.0.0",
+  "description": "Welcome to your new `deai_client` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojciechp6/deai_client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojciechp6/deai_client/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/wojciechp6/deai_client#readme",
+  "dependencies": {
+    "@dfinity/agent": "^2.2.0",
+    "@dfinity/candid": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "cli-progress": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
